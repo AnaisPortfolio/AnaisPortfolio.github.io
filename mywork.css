@@ -1,0 +1,59 @@
+.bar-container {
+    width: 100%;
+    background-image:url("https://cutewallpaper.org/21/gif-black-background/Black-background-gif-13-GIF-Images-Download.gif"); 
+    background-repeat: repeat;
+    margin-top: -150px;
+}
+
+.bar-content {
+    display: grid;
+    grid-template-columns: 0fr auto 0fr;
+    align-items: center;
+    height: 500px;
+    width:100%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.bar-menu1 {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    justify-self: end;
+}
+.bar-menu2 {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    justify-self: end;
+}
+
+.bar-btn {
+    color: var(--be);
+    padding: 6px 16px;
+    border-radius: 0px;
+    border-color: transparent;
+    
+    text-decoration: none;
+}
+
+.bar-btn:hover {
+    background-color: transparent;
+    color: transparent;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: transparent;
+    transition: all 0.3s ease-out;
+}
+
+.work-menu-toggle .work {
+    width: 30px;
+    height: 4px;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--g1);
+}
