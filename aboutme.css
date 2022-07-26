@@ -15,6 +15,7 @@
 
 .abtme-content {
     justify-self: start;
+    margin-left: 12px;
     background-color: var(--w);
     color: var(--b);
     width: 90%;
